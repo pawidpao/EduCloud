@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="20dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+    <Button
+        android:id="@+id/btnLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="85dp"
+        android:background="@drawable/button_selector"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:text="@string/log_in" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnLogIn"
+        android:layout_alignTop="@+id/btnLogIn"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/button_selector"
+        android:textColor="#FFFFFF"
+       	android:textSize="20sp"
+        android:text="@string/exit" />
+    
+</RelativeLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dark_red">#B80000</color>
+    <color name="red">#E80000</color>
+    <color name="light_red">#FF0000</color>
+    <color name="dark_blue">#000066</color>
+    <color name="blue">#0000FF</color>
+    <color name="light_blue">#0066FF</color>
+    <color name="sky_blue">#00FFFF</color>
+    <color name="yellow">#FFFF00</color>
+    <color name="light_yellow">#FFFF66</color>
+    <color name="green">#006600</color>
+    <color name="light_green">#00FF00</color>
+    <color name="dark_gray">#383838</color>
+    <color name="gray">#808080</color>
+    <color name="light_gray">#C0C0C0</color>
+    <color name="turquoise">#1ABC9C</color>
+    <color name="green_sea">#16A085</color>
+     <color name="wet_asphalt">#34495E</color>
+      <color name="peter_river">#3498DB</color>
+       <color name="belize_hole">#2980B9</color>
+        <color name="concrete">#95A5A6</color>
+        <color name="black">#000000</color>
+    
+</resources>

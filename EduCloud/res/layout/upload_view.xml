@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+	android:paddingLeft="10dp"
+	android:paddingRight="10dp"
+	android:paddingTop="10dp"
+	android:paddingBottom="10dp">
+        
+    <TextView
+    	android:id="@+id/tvFileType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/file_type"
+        android:textSize="20sp" 
+        android:textStyle="bold"/>
+		
+    <Spinner
+        android:id="@+id/spinFileType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/file_type_list"/>
+    
+    <TextView 
+        android:id="@+id/tvUploadTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/file_title"/>
+    
+    <EditText
+        android:id="@+id/etUploadTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_background"
+        android:textSize="20sp"/>
+        
+    <TextView 
+        android:id="@+id/tvFilePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/file_path"/>
+    
+    <EditText 
+        android:id="@+id/etFilePath"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:background="@drawable/edittext_background"
+        android:hint="@string/file_name_hint"
+        android:textSize="20sp"/>
+    
+	<TextView 
+    	android:id="@+id/tvFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/file_name"/>
+        
+	<EditText 
+    	android:id="@+id/etFileName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:background="@drawable/edittext_background"
+        android:hint="@string/file_name_hint"
+        android:textSize="20sp"/>
+	
+	<TextView
+	    android:id="@+id/tvUploadDescription"
+	    android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/file_description"
+		android:textStyle="bold"
+        android:textSize="20sp"/>
+	
+	<EditText 
+    	android:id="@+id/etUploadDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" 
+        android:background="@drawable/edittext_background"
+        android:textSize="20sp"/>
+        
+	<TextView
+    	android:id="@+id/tvUploadTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/tags"		android:textStyle="bold"	
+        android:textSize="20sp"/>
+        
+	<EditText 
+    	android:id="@+id/etUploadTags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp" 
+        android:background="@drawable/edittext_background"
+        android:hint="@string/tags_hint"
+        android:textSize="20sp"/>
+        
+	<Button 
+		android:id="@+id/btnUpload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/upload_btn"
+        android:background="@drawable/button_selector"/>
+
+</LinearLayout>

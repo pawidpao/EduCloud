@@ -1,0 +1,15 @@
+# view AndroidManifest.xml #generated:41
+-keep class mobacc.EduCloud.Access.AccessView { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class mobacc.EduCloud.Comment.CommentView { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class mobacc.EduCloud.Local.LocalView { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class mobacc.EduCloud.Main.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:36
+-keep class mobacc.EduCloud.Main.UploadView { <init>(...); }
+
